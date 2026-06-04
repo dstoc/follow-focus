@@ -2,5 +2,9 @@
 name = "follow-focus"
 version = "0.1.0"
 edition = "2024"
+description = "Warp the Sway pointer to the centre of the focused window on demand"
+license = "MIT"
+repository = "https://github.com/dstoc/follow-focus"
 
 [dependencies]
+swayipc = "4"
